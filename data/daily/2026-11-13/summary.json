@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-12T17:08:13Z",
+  "generated_at": "2026-11-12T17:25:14Z",
   "registry": {
     "resources": 57,
     "kinds": {
@@ -19,9 +19,10 @@
     },
     "statuses": {
       "blocked": 2,
+      "error": 1,
       "gone": 1,
       "online": 48,
-      "suspect": 6
+      "suspect": 5
     }
   },
   "sources": [
@@ -81,6 +82,6 @@
     }
   ],
   "changes": [],
-  "signals": 57,
-  "verified_at": "2026-11-12T17:14:04Z"
+  "signals": 65,
+  "verified_at": "2026-11-12T17:25:23Z"
 }

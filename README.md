@@ -2,7 +2,7 @@
 
 <p align="center">收集 CPU / GPU 云、VPS / 云主机、serverless 与 notebook 的免费额度、试用金和学生计划，每天校验并留档。</p>
 
-<p align="center"><img alt="panel" src="https://img.shields.io/badge/panel-local-5eead4?style=flat-square"> <img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white&style=flat-square"> <img alt="dependencies: 0" src="https://img.shields.io/badge/dependencies-0-34d399?style=flat-square"> <img alt="updated daily" src="https://img.shields.io/badge/updated-daily-fbbf24?style=flat-square"></p>
+<p align="center"><a href="https://maybebio.github.io/Daily-Free-Dev/"><img alt="panel: live" src="https://img.shields.io/badge/panel-live-5eead4?style=flat-square"></a> <img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white&style=flat-square"> <img alt="dependencies: 0" src="https://img.shields.io/badge/dependencies-0-34d399?style=flat-square"> <img alt="updated daily" src="https://img.shields.io/badge/updated-daily-fbbf24?style=flat-square"></p>
 
 <p align="center"><code>free-compute</code> · <code>gpu</code> · <code>vps</code> · <code>free-tier</code> · <code>zero-dependency</code> · <code>daily</code></p>
 
@@ -14,19 +14,19 @@ python -m shovel verify    # 校验官方页可达性与免费关键词
 python -m shovel report    # 重建 README / CSV / 面板 / RSS
 ```
 
-- 面板：`site/index.html`
+- 面板：[在线](https://maybebio.github.io/Daily-Free-Dev/) / [本地](site/index.html)
 - 每日 03:17（CST）由 GitHub Actions 更新并发布 Pages
 - 零依赖：Python 3.10+ 标准库即可运行，无需安装包
 
 ## 数据在哪
 
-- [在线面板](site/index.html)：搜索、筛选、实时状态
+- [在线面板](https://maybebio.github.io/Daily-Free-Dev/)：搜索、筛选、实时状态
 - [主清单](config/resources.json)：唯一事实源，可手动编辑
 - [每日归档](data/daily/)：每天一个目录，含 `summary.json`、各源快照与原始内容
 - [最新快照](data/snapshots/)：每个源最近一次归一化快照
 - [变更记录](data/changes.jsonl) / [历史统计](data/history.jsonl)
 - [resources.csv](resources.csv)：扁平表，适合 Excel 或脚本处理
-- [RSS](site/feed.xml)：新增 / 移除订阅
+- [RSS](https://maybebio.github.io/Daily-Free-Dev/feed.xml)：新增 / 移除订阅
 - [候选信号](data/signals/)：社区与 commit feed，需人工晋升进主清单
 
 ## 说明
