@@ -1,0 +1,93 @@
+{
+  "note": "候选信号只做展示，不自动进入主清单。",
+  "keywords": [
+    "free",
+    "gpu",
+    "cpu",
+    "vps",
+    "credit",
+    "grant",
+    "trial",
+    "免费",
+    "试用",
+    "额度",
+    "赠金",
+    "白嫖",
+    "学生"
+  ],
+  "exclude": [
+    "hiring",
+    "job",
+    "sale",
+    "free speech"
+  ],
+  "max_per_day": 200,
+  "feeds": [
+    {
+      "id": "free-for-dev-commits",
+      "kind": "atom",
+      "url": "https://github.com/ripienaar/free-for-dev/commits.atom",
+      "enabled": true
+    },
+    {
+      "id": "gpu-grants-commits",
+      "kind": "atom",
+      "url": "https://github.com/eric-prog/GPU-Grants/commits.atom",
+      "enabled": true
+    },
+    {
+      "id": "awesome-gpu-cloud-commits",
+      "kind": "atom",
+      "url": "https://github.com/Enterprise-AI-Atlas/awesome-gpu-cloud/commits.atom",
+      "enabled": true
+    },
+    {
+      "id": "student-resources-commits",
+      "kind": "atom",
+      "url": "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students/commits.atom",
+      "enabled": true
+    },
+    {
+      "id": "deep-learning-commits",
+      "kind": "atom",
+      "url": "https://github.com/zszazi/Deep-learning-in-cloud/commits.atom",
+      "enabled": true
+    },
+    {
+      "id": "vps-list-commits",
+      "kind": "atom",
+      "url": "https://github.com/SyntaxScribe/Awesome-Server-VPS-Hosting-Providers/commits.atom",
+      "enabled": true
+    },
+    {
+      "id": "cgpu-commits",
+      "kind": "atom",
+      "url": "https://github.com/RohanAdwankar/cgpu/commits.atom",
+      "enabled": true
+    },
+    {
+      "id": "kaggle-fuel-commits",
+      "kind": "atom",
+      "url": "https://github.com/uddinsaad70/kaggle-fuel/commits.atom",
+      "enabled": true
+    },
+    {
+      "id": "hn",
+      "kind": "hn",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?query=free%20gpu&tags=story",
+      "enabled": true
+    },
+    {
+      "id": "reddit-localllama",
+      "kind": "rss",
+      "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+      "enabled": true
+    },
+    {
+      "id": "nodeseek",
+      "kind": "rss",
+      "url": "https://www.nodeseek.com/rss.xml",
+      "enabled": true
+    }
+  ]
+}

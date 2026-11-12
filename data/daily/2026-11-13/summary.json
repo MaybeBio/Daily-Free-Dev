@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-12T17:08:13Z",
+  "registry": {
+    "resources": 57,
+    "kinds": {
+      "cpu": 14,
+      "gpu": 28,
+      "notebook": 4,
+      "serverless": 9,
+      "vps": 2
+    },
+    "free_types": {
+      "grant": 8,
+      "permanent": 24,
+      "renewable": 1,
+      "student": 7,
+      "trial_credit": 17
+    },
+    "statuses": {
+      "blocked": 2,
+      "gone": 1,
+      "online": 48,
+      "suspect": 6
+    }
+  },
+  "sources": [
+    {
+      "id": "free-for-dev",
+      "name": "free-for-dev",
+      "ok": true,
+      "items": 21,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "gpu-grants",
+      "name": "GPU Grants",
+      "ok": true,
+      "items": 13,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "awesome-gpu-cloud",
+      "name": "Awesome GPU Cloud",
+      "ok": true,
+      "items": 0,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "free-cloud-ai-resources",
+      "name": "学生免费云资源",
+      "ok": true,
+      "items": 5,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "deep-learning-in-cloud",
+      "name": "Deep Learning in Cloud",
+      "ok": true,
+      "items": 19,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "awesome-server-vps",
+      "name": "Awesome Server / VPS",
+      "ok": true,
+      "items": 2,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    }
+  ],
+  "changes": [],
+  "signals": 57,
+  "verified_at": "2026-11-12T17:14:04Z"
+}

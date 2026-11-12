@@ -1,0 +1,59 @@
+{
+  "note": "外部发现源。enabled=false 的源不会抓取；min_items 首次 import 时自动校准。",
+  "sources": [
+    {
+      "id": "free-for-dev",
+      "name": "free-for-dev",
+      "kind": "free_for_dev",
+      "url": "https://raw.githubusercontent.com/ripienaar/free-for-dev/master/README.md",
+      "local": "resources/free-for-dev/README.md",
+      "enabled": true,
+      "min_items": 16
+    },
+    {
+      "id": "gpu-grants",
+      "name": "GPU Grants",
+      "kind": "gpu_grants",
+      "url": "https://raw.githubusercontent.com/eric-prog/GPU-Grants/main/README.md",
+      "local": "resources/GPU-Grants/README.md",
+      "enabled": true,
+      "min_items": 10
+    },
+    {
+      "id": "awesome-gpu-cloud",
+      "name": "Awesome GPU Cloud",
+      "kind": "awesome_gpu_cloud",
+      "url": "https://raw.githubusercontent.com/Enterprise-AI-Atlas/awesome-gpu-cloud/main/README.md",
+      "local": "resources/awesome-gpu-cloud/README.md",
+      "enabled": true,
+      "min_items": 0
+    },
+    {
+      "id": "free-cloud-ai-resources",
+      "name": "学生免费云资源",
+      "kind": "student_json",
+      "url": "https://raw.githubusercontent.com/HeyAvijitRoy/free-cloud-ai-resources-for-students/main/data.json",
+      "local": "resources/free-cloud-ai-resources-for-students/data.json",
+      "enabled": true,
+      "min_items": 4
+    },
+    {
+      "id": "deep-learning-in-cloud",
+      "name": "Deep Learning in Cloud",
+      "kind": "deep_learning_cloud",
+      "url": "https://raw.githubusercontent.com/zszazi/Deep-learning-in-cloud/master/README.md",
+      "local": "resources/Deep-learning-in-cloud/README.md",
+      "enabled": true,
+      "min_items": 15
+    },
+    {
+      "id": "awesome-server-vps",
+      "name": "Awesome Server / VPS",
+      "kind": "vps_list",
+      "url": "https://raw.githubusercontent.com/SyntaxScribe/Awesome-Server-VPS-Hosting-Providers/main/readme.md",
+      "local": "resources/Awesome-Server-VPS-Hosting-Providers/readme.md",
+      "enabled": true,
+      "min_items": 1
+    }
+  ]
+}
