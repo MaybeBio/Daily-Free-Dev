@@ -79,32 +79,60 @@ def render_readme(registry_payload: dict, path: Path) -> Path:
             path = alt
     panel = _panel_url()
     feed = _feed_url()
-    stats = registry_payload.get("stats", {})
-    content = f"""# 每日免费算力资源清单
+    panel_badge = (
+        f'<a href="{panel}"><img alt="panel: live" '
+        'src="https://img.shields.io/badge/panel-live-5eead4?style=flat-square"></a>'
+        if panel.startswith("http")
+        else '<img alt="panel" src="https://img.shields.io/badge/panel-local-5eead4?style=flat-square">'
+    )
+    badges = " ".join(
+        [
+            panel_badge,
+            '<img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white&style=flat-square">',
+            '<img alt="dependencies: 0" src="https://img.shields.io/badge/dependencies-0-34d399?style=flat-square">',
+            '<img alt="updated daily" src="https://img.shields.io/badge/updated-daily-fbbf24?style=flat-square">',
+        ]
+    )
+    panel_line = f"[在线]({panel}) / [本地](site/index.html)" if panel.startswith("http") else "`site/index.html`"
+    content = f"""<h1 align="center">⛏️ 每日免费算力</h1>
 
-每日收集 CPU / GPU 云、VPS / 云主机、serverless、notebook 的免费额度、试用金与学生计划。
+<p align="center">收集 CPU / GPU 云、VPS / 云主机、serverless 与 notebook 的免费额度、试用金和学生计划，每天校验并留档。</p>
 
-## 3 步上手
+<p align="center">{badges}</p>
 
-1. 打开[在线面板]({panel})，按类型、免费类型或状态筛选。
-2. 点条目跳转官方页，申请前确认额度与门槛。
-3. 订阅 [RSS]({feed}) 或直接读 [resources.csv](resources.csv)。
+<p align="center"><code>free-compute</code> · <code>gpu</code> · <code>vps</code> · <code>free-tier</code> · <code>zero-dependency</code> · <code>daily</code></p>
+
+## 快速开始
+
+```bash
+python -m shovel update    # 抓外部源、差异追踪、每日归档
+python -m shovel verify    # 校验官方页可达性与免费关键词
+python -m shovel report    # 重建 README / CSV / 面板 / RSS
+```
+
+- 面板：{panel_line}
+- 每日 03:17（CST）由 GitHub Actions 更新并发布 Pages
+- 零依赖：Python 3.10+ 标准库即可运行，无需安装包
 
 ## 数据在哪
 
 - [在线面板]({panel})：搜索、筛选、实时状态
-- [主清单](config/resources.json)：{stats.get('resources', 0)} 条资源的唯一事实源
+- [主清单](config/resources.json)：唯一事实源，可手动编辑
 - [每日归档](data/daily/)：每天一个目录，含 `summary.json`、各源快照与原始内容
 - [最新快照](data/snapshots/)：每个源最近一次归一化快照
 - [变更记录](data/changes.jsonl) / [历史统计](data/history.jsonl)
 - [resources.csv](resources.csv)：扁平表，适合 Excel 或脚本处理
+- [RSS]({feed})：新增 / 移除订阅
 - [候选信号](data/signals/)：社区与 commit feed，需人工晋升进主清单
 
 ## 说明
 
+- README 只做入口，不记录具体资源数据；数据以面板和上面仓库内的文件为准。
 - 只收录有免费额度的算力资源；数据库、存储、CI/CD 等非算力项不收。
 - 校验只标注状态，不自动删除条目；连续失效会在面板「需复核」中提示。
 - 额度与资格以官方页为准，清单不承诺可用性。
+
+<sub>由 `report` 自动生成。</sub>
 
 {GENERATED_MARKER}
 """
@@ -217,68 +245,91 @@ _HTML_TEMPLATE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="每日更新与校验的免费 CPU / GPU 云、VPS / 云主机、serverless 与 notebook 资源清单。">
+<meta name="theme-color" content="#0b1020">
+<meta property="og:title" content="每日免费算力资源清单">
+<meta property="og:description" content="每日更新与校验的免费 CPU / GPU 云、VPS / 云主机、serverless 与 notebook 资源清单。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9B%8F%EF%B8%8F%3C/text%3E%3C/svg%3E">
 <title>每日免费算力资源清单</title>
 <style>
-:root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--text:#e6edf3;--muted:#8b949e;
---accent:#58a6ff;--ok:#3fb950;--warn:#d29922;--bad:#f85149;--tag:#21262d}
+:root{--bg:#0b1020;--panel:#121a33;--panel2:#0f1730;--line:#22304f;
+--text:#e8eefc;--muted:#8fa0bf;--acc:#5eead4;--acc2:#fbbf24;
+--ok:#34d399;--warn:#fbbf24;--bad:#f87171;--dim:#64748b;--tag:#16224a}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font:14px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}
-header{padding:28px 24px 16px;border-bottom:1px solid var(--line)}
-h1{margin:0 0 6px;font-size:22px}
-.sub{color:var(--muted);font-size:13px}
-.stats{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px}
-.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 14px}
-.stat b{font-size:18px;display:block}
-main{padding:18px 24px 60px;max-width:1400px;margin:0 auto}
-.tabs{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
-.tab{background:var(--panel);color:var(--muted);border:1px solid var(--line);padding:7px 14px;border-radius:7px;cursor:pointer}
-.tab.active{color:var(--text);border-color:var(--accent)}
-.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
-input,select{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:7px;padding:8px 10px;font-size:13px}
-input{min-width:240px;flex:1}
-.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px}
+body{margin:0;background:radial-gradient(1200px 600px at 10% -10%,#1a2a55 0,transparent 55%),
+radial-gradient(900px 500px at 100% 0,#132347 0,transparent 50%),var(--bg);
+color:var(--text);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+"PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:1280px;margin:0 auto;padding:28px 18px 60px}
+header{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between}
+h1{font-size:30px;margin:0;letter-spacing:.5px}
+h1 span{color:var(--acc)}
+.sub{color:var(--muted);margin-top:6px;font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+.stat{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+border-radius:14px;padding:14px 16px}
+.stat b{display:block;font-size:24px;color:var(--acc)}
+.stat span{color:var(--muted);font-size:13px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 14px}
+.tab{cursor:pointer;border:1px solid var(--line);background:#0d1530;color:var(--muted);
+padding:7px 12px;border-radius:999px;font-size:13px;user-select:none;font:inherit}
+.tab.active{background:rgba(94,234,212,.12);border-color:#2f8f83;color:var(--acc)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
+input,select{background:#0d1530;border:1px solid var(--line);color:var(--text);border-radius:10px;
+padding:9px 12px;font:inherit;font-size:14px}
+input{flex:1 1 260px;min-width:200px}
+input:focus,select:focus{border-color:#3b6ea5;outline:none}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:14px;
+background:linear-gradient(180deg,var(--panel),var(--panel2))}
 table{width:100%;border-collapse:collapse;min-width:980px}
-th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-th{background:var(--panel);color:var(--muted);font-weight:600;position:sticky;top:0;font-size:12px}
-tr:hover td{background:#11161d}
-a{color:var(--accent);text-decoration:none}
+th,td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#101a36;color:var(--muted);font-weight:600;position:sticky;top:0;font-size:12px;letter-spacing:.3px}
+tr:hover td{background:#131f3f}
+a{color:#7dd3fc;text-decoration:none}
 a:hover{text-decoration:underline}
-.name{font-weight:600}
+.name{font-weight:600;color:var(--acc)}
 .limits{color:var(--muted);max-width:420px}
-.tag{display:inline-block;background:var(--tag);border-radius:5px;padding:1px 7px;margin:1px 3px 1px 0;font-size:11px;color:var(--muted)}
+.tag{display:inline-block;background:var(--tag);border-radius:999px;padding:1px 8px;
+margin:1px 3px 1px 0;font-size:11px;color:var(--muted)}
 .badge{display:inline-block;border-radius:999px;padding:1px 9px;font-size:12px;white-space:nowrap}
-.online{background:#0f2f1a;color:var(--ok)}
-.suspect,.blocked,.unknown{background:#2d2412;color:var(--warn)}
-.gone,.error{background:#2d1416;color:var(--bad)}
+.online{background:rgba(52,211,153,.1);color:var(--ok)}
+.suspect,.blocked,.unknown{background:rgba(251,191,36,.1);color:var(--warn)}
+.gone,.error{background:rgba(248,113,113,.1);color:var(--bad)}
 .muted{color:var(--muted)}
-.signal{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:12px 14px;margin-bottom:10px}
-.signal h3{margin:0 0 4px;font-size:15px}
-.empty{padding:40px;text-align:center;color:var(--muted)}
-footer{color:var(--muted);font-size:12px;margin-top:22px}
-@media(max-width:700px){main{padding:14px 12px}header{padding:20px 14px 12px}input{min-width:100%}}
+.signal{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);
+border-radius:14px;padding:14px 16px;margin-bottom:12px}
+.signal h3{margin:0 0 5px;font-size:16px}
+.empty{padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
+footer{margin-top:34px;color:var(--muted);font-size:12px}
+@media(max-width:700px){.wrap{padding:18px 12px 48px}h1{font-size:24px}input{min-width:100%}}
 </style>
 </head>
 <body>
+<div class="wrap">
 <header>
-  <h1>每日免费算力资源清单</h1>
-  <div class="sub" id="generated"></div>
-  <div class="stats" id="stats"></div>
+  <div>
+    <h1>每日免费 <span>算力</span></h1>
+    <div class="sub" id="generated"></div>
+  </div>
+  <div class="sub">每日校验 · 按日留档</div>
 </header>
-<main>
-  <div class="tabs">
-    <button class="tab active" data-tab="main">主清单</button>
-    <button class="tab" data-tab="review">需复核</button>
-    <button class="tab" data-tab="signals">新信号</button>
-  </div>
-  <div class="filters" id="filters">
-    <input id="q" type="search" placeholder="搜索名称、厂商、额度、标签…">
-    <select id="kind"><option value="">全部类型</option></select>
-    <select id="free"><option value="">全部免费类型</option></select>
-    <select id="status"><option value="">全部状态</option></select>
-  </div>
-  <div id="content"></div>
-  <footer>额度与资格以官方页为准；校验只标注状态，不自动删除条目。</footer>
-</main>
+<div class="stats" id="stats"></div>
+<div class="tabs">
+  <button class="tab active" data-tab="main">主清单</button>
+  <button class="tab" data-tab="review">需复核</button>
+  <button class="tab" data-tab="signals">新信号</button>
+</div>
+<div class="filters" id="filters">
+  <input id="q" type="search" placeholder="搜索名称、厂商、额度、标签…">
+  <select id="kind"><option value="">全部类型</option></select>
+  <select id="free"><option value="">全部免费类型</option></select>
+  <select id="status"><option value="">全部状态</option></select>
+</div>
+<div id="content"></div>
+<footer>额度与资格以官方页为准；校验只标注状态，不自动删除条目。
+数据来自 config/resources.json 与 data/status.json，由 python -m shovel report 生成。</footer>
+</div>
 <script id="payload" type="application/json">__PAYLOAD__</script>
 <script>
 const data = JSON.parse(document.getElementById('payload').textContent);

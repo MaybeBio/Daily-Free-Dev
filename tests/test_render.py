@@ -44,7 +44,7 @@ class ReadmeTest(unittest.TestCase):
             path.write_text(render.GENERATED_MARKER + "\nold\n", encoding="utf-8")
             result = render.render_readme(REGISTRY, path)
             self.assertEqual(result, path)
-            self.assertIn("每日免费算力资源清单", result.read_text(encoding="utf-8"))
+            self.assertIn("每日免费", result.read_text(encoding="utf-8"))
 
     def test_feed_link_is_valid_locally(self):
         with tempfile.TemporaryDirectory() as tmp:
