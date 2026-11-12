@@ -1,8 +1,10 @@
 import json
+import os
 import re
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from shovel import render
 
@@ -29,6 +31,11 @@ REGISTRY = {
 
 
 class ReadmeTest(unittest.TestCase):
+    def setUp(self):
+        patcher = mock.patch.dict(os.environ, {"GITHUB_REPOSITORY": ""})
+        patcher.start()
+        self.addCleanup(patcher.stop)
+
     def test_guard_skips_handwritten_readme(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "README.md"
@@ -53,6 +60,15 @@ class ReadmeTest(unittest.TestCase):
             content = path.read_text(encoding="utf-8")
             self.assertIn("site/feed.xml", content)
             self.assertNotIn("site/index.htmlfeed.xml", content)
+
+    def test_pages_links_when_repository_set(self):
+        with mock.patch.dict(os.environ, {"GITHUB_REPOSITORY": "Owner/Repo"}):
+            with tempfile.TemporaryDirectory() as tmp:
+                path = Path(tmp) / "README.md"
+                render.render_readme(REGISTRY, path)
+                content = path.read_text(encoding="utf-8")
+                self.assertIn("https://owner.github.io/Repo/feed.xml", content)
+                self.assertNotIn("site/feed.xml", content)
 
 
 class CsvTest(unittest.TestCase):
