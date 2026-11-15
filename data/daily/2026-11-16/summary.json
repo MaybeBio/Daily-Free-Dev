@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-15T23:24:53Z",
+  "registry": {
+    "resources": 57,
+    "kinds": {
+      "cpu": 14,
+      "gpu": 28,
+      "notebook": 4,
+      "serverless": 9,
+      "vps": 2
+    },
+    "free_types": {
+      "grant": 8,
+      "permanent": 24,
+      "renewable": 1,
+      "student": 7,
+      "trial_credit": 17
+    },
+    "statuses": {
+      "blocked": 2,
+      "error": 1,
+      "gone": 1,
+      "online": 48,
+      "suspect": 5
+    }
+  },
+  "sources": [
+    {
+      "id": "free-for-dev",
+      "name": "free-for-dev",
+      "ok": true,
+      "items": 20,
+      "baseline": false,
+      "added": 0,
+      "removed": 1
+    },
+    {
+      "id": "gpu-grants",
+      "name": "GPU Grants",
+      "ok": true,
+      "items": 13,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "awesome-gpu-cloud",
+      "name": "Awesome GPU Cloud",
+      "ok": true,
+      "items": 0,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "free-cloud-ai-resources",
+      "name": "学生免费云资源",
+      "ok": true,
+      "items": 5,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "deep-learning-in-cloud",
+      "name": "Deep Learning in Cloud",
+      "ok": true,
+      "items": 19,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "id": "awesome-server-vps",
+      "name": "Awesome Server / VPS",
+      "ok": true,
+      "items": 2,
+      "baseline": false,
+      "added": 0,
+      "removed": 0
+    }
+  ],
+  "changes": [
+    {
+      "at": "2026-11-15T23:24:48Z",
+      "source": "free-for-dev",
+      "name": "free-for-dev",
+      "added_count": 0,
+      "removed_count": 1,
+      "added": [],
+      "removed": [
+        "val.town/ | Val Town | serverless | permanent | Collaborative TypeScript/JavaScript serverless platform for scripts, HTTP endpoints, and cron jobs. Free plan includes unlimited public vals, 15-minute cron intervals, 1-minute wall-clock time per run, and 3-day log retention. No custom domains on free."
+      ]
+    }
+  ],
+  "signals": 48,
+  "verified_at": "2026-11-15T23:25:01Z"
+}
