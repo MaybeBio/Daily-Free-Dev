@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T23:25:01Z",
+  "updated_at": "2026-11-17T02:30:55Z",
   "resources": [
     {
       "id": "google-cloud-platform",
@@ -31,13 +31,13 @@
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers",
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://cloud.google.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:53Z",
+      "checked_at": "2026-11-17T02:30:45Z",
       "streak_gone": 0
     },
     {
@@ -62,13 +62,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://aws.amazon.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:53Z",
+      "checked_at": "2026-11-17T02:30:45Z",
       "streak_gone": 0
     },
     {
@@ -94,13 +94,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://azure.microsoft.com/en-us",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -127,13 +127,13 @@
         "https://github.com/SyntaxScribe/Awesome-Server-VPS-Hosting-Providers#cloud-iaas-developer-clouds",
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "blocked",
       "http_status": 403,
       "final_url": "https://www.oracle.com/cloud/",
       "keyword_hit": false,
-      "checked_at": "2026-11-15T23:24:53Z",
+      "checked_at": "2026-11-17T02:30:45Z",
       "streak_gone": 0
     },
     {
@@ -158,13 +158,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.cloudflare.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:53Z",
+      "checked_at": "2026-11-17T02:30:45Z",
       "streak_gone": 0
     },
     {
@@ -189,13 +189,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://appwrite.io",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -220,13 +220,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://daestro.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:45Z",
       "streak_gone": 0
     },
     {
@@ -251,13 +251,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://deplexo.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -282,13 +282,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://ethiodeploy.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -313,13 +313,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://faable.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:45Z",
       "streak_gone": 0
     },
     {
@@ -344,13 +344,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://gigalixir.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -375,13 +375,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://northflank.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -407,13 +407,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://ownkube.io",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -438,13 +438,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://runsite.app/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -470,13 +470,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://snapdeploy.dev/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:54Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -502,13 +502,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://staxa.dev/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -539,7 +539,7 @@
       "http_status": 200,
       "final_url": "https://www.val.town",
       "keyword_hit": false,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -565,13 +565,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://velixir.net/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -596,13 +596,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://yepcode.io",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -628,13 +628,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#iaas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://instabox.sh/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:46Z",
       "streak_gone": 0
     },
     {
@@ -659,13 +659,13 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#iaas"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://modal.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -690,13 +690,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://aigrant.org/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -721,14 +721,14 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "gone",
       "http_status": 404,
       "final_url": "https://www.primeintellect.ai/blog/fast-compute-grants#:~:text=If%20you're%20working%20on,hackers%20and%20distributed%20computing%20experts",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
-      "streak_gone": 7,
+      "checked_at": "2026-11-17T02:30:47Z",
+      "streak_gone": 8,
       "stale": true
     },
     {
@@ -753,13 +753,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://fal.ai/grants",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -784,13 +784,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://a16z.com/supporting-the-open-source-ai-community/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -815,13 +815,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "error",
       "http_status": 0,
       "final_url": "https://gradient.ai/research-grant",
       "keyword_hit": false,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -846,13 +846,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
-      "http_status": 200,
+      "http_status": 202,
       "final_url": "https://trelis.com/trelis-ai-grants/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -877,13 +877,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://tcz.hu/zoltans-flops",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -908,13 +908,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://edu.google.com/programs/credits/research/?modal_active=none",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:55Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -939,13 +939,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://pages.awscloud.com/aws-cloud-credit-for-research.html",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -970,13 +970,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://lambda.com/research",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:47Z",
       "streak_gone": 0
     },
     {
@@ -1001,13 +1001,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://landing.hostkey.com/grant_for_scientific_projects_formhtml",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1032,13 +1032,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://nebius.com/nebius-research-grants",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:49Z",
       "streak_gone": 0
     },
     {
@@ -1063,13 +1063,13 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.together.ai/research-credits-program-request",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1094,13 +1094,13 @@
       "source_refs": [
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#cloud-platforms-compute-credits"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://cloud.google.com/free",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1125,13 +1125,13 @@
       "source_refs": [
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#cloud-platforms-compute-credits"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "suspect",
       "http_status": 200,
       "final_url": "https://www.digitalocean.com/",
       "keyword_hit": false,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1158,13 +1158,13 @@
       "source_refs": [
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#aiml-tools-free-gpu-access"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.kaggle.com/code",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1192,13 +1192,13 @@
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#aiml-tools-free-gpu-access",
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://colab.research.google.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:56Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1224,13 +1224,13 @@
       "source_refs": [
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#aiml-tools-free-gpu-access"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "blocked",
       "http_status": 403,
       "final_url": "https://studiolab.sagemaker.aws/",
       "keyword_hit": false,
-      "checked_at": "2026-11-15T23:24:57Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1256,13 +1256,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "suspect",
       "http_status": 200,
       "final_url": "https://www.kaggle.com",
       "keyword_hit": false,
-      "checked_at": "2026-11-15T23:24:57Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1287,13 +1287,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.acecloudhosting.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:57Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1318,13 +1318,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.alibabacloud.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:57Z",
+      "checked_at": "2026-11-17T02:30:50Z",
       "streak_gone": 0
     },
     {
@@ -1349,13 +1349,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://aws.amazon.com/sagemaker/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:57Z",
+      "checked_at": "2026-11-17T02:30:48Z",
       "streak_gone": 0
     },
     {
@@ -1380,13 +1380,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://azure.microsoft.com/en-in/products/machine-learning/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:57Z",
+      "checked_at": "2026-11-17T02:30:49Z",
       "streak_gone": 0
     },
     {
@@ -1411,13 +1411,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.dataiku.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:57Z",
+      "checked_at": "2026-11-17T02:30:49Z",
       "streak_gone": 0
     },
     {
@@ -1443,13 +1443,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://gridshare.in",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:50Z",
       "streak_gone": 0
     },
     {
@@ -1474,13 +1474,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://hostkey.com/gpu-dedicated-servers/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:50Z",
       "streak_gone": 0
     },
     {
@@ -1505,13 +1505,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.ibm.com/products/gpu-ai-accelerator",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:51Z",
       "streak_gone": 0
     },
     {
@@ -1537,13 +1537,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://jarvislabs.ai/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:57Z",
+      "checked_at": "2026-11-17T02:30:49Z",
       "streak_gone": 0
     },
     {
@@ -1568,13 +1568,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://blog.nimblebox.ai/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:50Z",
       "streak_gone": 0
     },
     {
@@ -1599,13 +1599,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.paperspace.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:50Z",
       "streak_gone": 0
     },
     {
@@ -1632,13 +1632,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "suspect",
       "http_status": 200,
       "final_url": "https://puzl.cloud/gpu-cloud",
       "keyword_hit": false,
-      "checked_at": "2026-11-15T23:24:59Z",
+      "checked_at": "2026-11-17T02:30:51Z",
       "streak_gone": 0
     },
     {
@@ -1665,13 +1665,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "suspect",
       "http_status": 200,
       "final_url": "https://qit.energy",
       "keyword_hit": false,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:50Z",
       "streak_gone": 0
     },
     {
@@ -1697,13 +1697,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://developer.amd.com.cn/radeon/?utm_source=github&utm_medium=deep-learning-in-cloud&utm_campaign=awesome-dlcloud",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:25:01Z",
+      "checked_at": "2026-11-17T02:30:54Z",
       "streak_gone": 0
     },
     {
@@ -1730,13 +1730,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.runpod.io/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:50Z",
       "streak_gone": 0
     },
     {
@@ -1761,13 +1761,13 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.tensordock.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:51Z",
       "streak_gone": 0
     },
     {
@@ -1793,28 +1793,61 @@
       "source_refs": [
         "https://github.com/SyntaxScribe/Awesome-Server-VPS-Hosting-Providers#niche-specialty-providers"
       ],
-      "verified_at": "2026-11-16",
+      "verified_at": "2026-11-17",
       "notes": "",
       "status": "online",
       "http_status": 200,
       "final_url": "https://www.oracle.com/cloud/compute/arm/",
       "keyword_hit": true,
-      "checked_at": "2026-11-15T23:24:58Z",
+      "checked_at": "2026-11-17T02:30:50Z",
+      "streak_gone": 0
+    },
+    {
+      "id": "axforge",
+      "name": "AxForge",
+      "provider": "AxForge",
+      "kind": "serverless",
+      "tags": [
+        "free-tier",
+        "no-card",
+        "rtx"
+      ],
+      "free_type": "permanent",
+      "limits_text": "3M free serverless API tokens every 30 days, no card (API only, not GPU hours)",
+      "eligibility": "",
+      "access": {
+        "card": "not_required",
+        "phone": "unknown",
+        "realname": "unknown"
+      },
+      "homepage": "https://axforge.ai/gpu/",
+      "signup_url": "",
+      "official_url": "https://axforge.ai/gpu/",
+      "source_refs": [
+        "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
+      ],
+      "verified_at": "2026-11-17",
+      "notes": "",
+      "status": "online",
+      "http_status": 200,
+      "final_url": "https://axforge.ai/gpu/",
+      "keyword_hit": true,
+      "checked_at": "2026-11-17T02:30:51Z",
       "streak_gone": 0
     }
   ],
   "stats": {
-    "resources": 57,
+    "resources": 58,
     "kinds": {
       "cpu": 14,
       "gpu": 28,
       "notebook": 4,
-      "serverless": 9,
+      "serverless": 10,
       "vps": 2
     },
     "free_types": {
       "grant": 8,
-      "permanent": 24,
+      "permanent": 25,
       "renewable": 1,
       "student": 7,
       "trial_credit": 17
@@ -1823,7 +1856,7 @@
       "blocked": 2,
       "error": 1,
       "gone": 1,
-      "online": 48,
+      "online": 49,
       "suspect": 5
     }
   }

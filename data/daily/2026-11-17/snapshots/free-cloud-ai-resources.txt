@@ -1,0 +1,5 @@
+aws.amazon.com/sagemaker/studio-lab | AWS SageMaker Studio Lab | gpu | student | Free T4 GPU for training ML models. Offers a managed environment with free GPU time for ML workloads.
+cloud.google.com/free | Google Cloud Free Tier | serverless | student | Always-free compute, serverless hosting, and ML APIs. Lets you run small services, APIs, and ML workloads continuously at no cost.
+colab.research.google.com/ | Google Colab | notebook | student | Free cloud notebook environment with GPU access. Lets you run Python notebooks with GPUs directly in the browser.
+digitalocean.com/github-students | DigitalOcean Credits (via GitHub Pack) | serverless | student | Deploy apps, containers, and databases easily. Use cloud credits to spin up real servers and services for your apps.
+kaggle.com/notebooks | Kaggle | notebook | student | Free GPU & TPU notebooks for ML experiments. Provides hosted Jupyter-like notebooks with free accelerators for training and experimenting.

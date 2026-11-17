@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-17",
+  "sources": {
+    "free-for-dev": {
+      "ok": true,
+      "hash": "8d3ee7aa",
+      "raw": "raw/free-for-dev-8d3ee7aa.md",
+      "items": 20
+    },
+    "gpu-grants": {
+      "ok": true,
+      "hash": "f292d4a1",
+      "raw": "../2026-11-13/raw/gpu-grants-f292d4a1.md",
+      "items": 13
+    },
+    "awesome-gpu-cloud": {
+      "ok": true,
+      "hash": "37098b4c",
+      "raw": "../2026-11-13/raw/awesome-gpu-cloud-37098b4c.md",
+      "items": 0
+    },
+    "free-cloud-ai-resources": {
+      "ok": true,
+      "hash": "650617b4",
+      "raw": "../2026-11-13/raw/free-cloud-ai-resources-650617b4.json",
+      "items": 5
+    },
+    "deep-learning-in-cloud": {
+      "ok": true,
+      "hash": "09e430f3",
+      "raw": "raw/deep-learning-in-cloud-09e430f3.md",
+      "items": 20
+    },
+    "awesome-server-vps": {
+      "ok": true,
+      "hash": "b2c3989e",
+      "raw": "../2026-11-13/raw/awesome-server-vps-b2c3989e.md",
+      "items": 2
+    }
+  }
+}

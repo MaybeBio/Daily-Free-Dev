@@ -1,6 +1,7 @@
 acecloudhosting.com/ | Ace Cloud | gpu | trial_credit | [$300 credits] (https://www.acecloudhosting.com/public-cloud/gpu/)
 alibabacloud.com/ | Alibaba cloud | gpu | trial_credit | $300 credits
 aws.amazon.com/sagemaker | AWS Sagemaker | gpu | permanent | Free plans
+axforge.ai/gpu | AxForge | serverless | permanent | 3M free serverless API tokens every 30 days, no card (API only, not GPU hours)
 azure.microsoft.com/en-in/products/machine-learning | Azure | gpu | trial_credit | $200 credits
 cloud.google.com/gpu | Google Cloud Platform | gpu | trial_credit | $300 credits
 colab.research.google.com/ | Google Colaboratory | gpu | permanent | FREE FOREVER*
