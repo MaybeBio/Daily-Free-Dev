@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:16:37Z",
+  "updated_at": "2026-11-20T01:19:33Z",
   "note": "唯一事实源，可手动编辑。运行 update 只追加与补空字段。",
   "resources": [
     {
@@ -32,7 +32,7 @@
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers",
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -57,7 +57,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -83,7 +83,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -110,7 +110,7 @@
         "https://github.com/SyntaxScribe/Awesome-Server-VPS-Hosting-Providers#cloud-iaas-developer-clouds",
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -135,7 +135,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#major-cloud-providers"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -160,7 +160,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -185,7 +185,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -210,7 +210,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -235,7 +235,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -260,7 +260,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -285,7 +285,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -310,7 +310,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -336,7 +336,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -361,7 +361,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -387,7 +387,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -413,7 +413,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -464,7 +464,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -489,7 +489,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#paas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -515,7 +515,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#iaas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -540,7 +540,7 @@
       "source_refs": [
         "https://github.com/ripienaar/free-for-dev#iaas"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -565,7 +565,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -590,7 +590,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -615,7 +615,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -640,7 +640,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -665,7 +665,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -690,7 +690,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -715,7 +715,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -740,7 +740,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -765,7 +765,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -790,7 +790,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -815,7 +815,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -840,7 +840,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -865,7 +865,7 @@
       "source_refs": [
         "https://github.com/eric-prog/GPU-Grants"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -890,7 +890,7 @@
       "source_refs": [
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#cloud-platforms-compute-credits"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -915,7 +915,7 @@
       "source_refs": [
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#cloud-platforms-compute-credits"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -942,7 +942,7 @@
       "source_refs": [
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#aiml-tools-free-gpu-access"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -970,7 +970,7 @@
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#aiml-tools-free-gpu-access",
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -996,7 +996,7 @@
       "source_refs": [
         "https://github.com/HeyAvijitRoy/free-cloud-ai-resources-for-students#aiml-tools-free-gpu-access"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1022,7 +1022,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1047,7 +1047,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1072,7 +1072,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1097,7 +1097,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1122,7 +1122,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1147,7 +1147,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1173,7 +1173,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1198,7 +1198,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1223,7 +1223,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1249,7 +1249,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1274,7 +1274,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1299,7 +1299,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1326,7 +1326,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1353,7 +1353,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1379,7 +1379,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1406,7 +1406,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1431,7 +1431,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1457,7 +1457,7 @@
       "source_refs": [
         "https://github.com/SyntaxScribe/Awesome-Server-VPS-Hosting-Providers#niche-specialty-providers"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     },
     {
@@ -1484,7 +1484,7 @@
       "source_refs": [
         "https://github.com/zszazi/Deep-learning-in-cloud#free-credits-and-perksoffer"
       ],
-      "verified_at": "2026-11-19",
+      "verified_at": "2026-11-20",
       "notes": ""
     }
   ]
