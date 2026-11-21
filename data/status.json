@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:50:58Z",
+  "generated_at": "2026-11-21T23:50:09Z",
   "summary": {
     "blocked": 2,
     "error": 1,
@@ -13,7 +13,7 @@
       "http_status": 200,
       "final_url": "https://cloud.google.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "amazon-web-services": {
@@ -21,7 +21,7 @@
       "http_status": 200,
       "final_url": "https://aws.amazon.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:50Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "microsoft-azure": {
@@ -29,7 +29,7 @@
       "http_status": 200,
       "final_url": "https://azure.microsoft.com/en-us",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "oracle-cloud": {
@@ -37,7 +37,7 @@
       "http_status": 403,
       "final_url": "https://www.oracle.com/cloud/",
       "keyword_hit": false,
-      "checked_at": "2026-11-21T00:50:50Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "cloudflare": {
@@ -45,7 +45,7 @@
       "http_status": 200,
       "final_url": "https://www.cloudflare.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:50Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "appwrite": {
@@ -53,7 +53,7 @@
       "http_status": 200,
       "final_url": "https://appwrite.io",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "daestro": {
@@ -61,7 +61,7 @@
       "http_status": 200,
       "final_url": "https://daestro.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "deplexo": {
@@ -69,7 +69,7 @@
       "http_status": 200,
       "final_url": "https://deplexo.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "ethiodeploy": {
@@ -77,7 +77,7 @@
       "http_status": 200,
       "final_url": "https://ethiodeploy.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "faable-com": {
@@ -85,7 +85,7 @@
       "http_status": 200,
       "final_url": "https://faable.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "gigalixir-com": {
@@ -93,7 +93,7 @@
       "http_status": 200,
       "final_url": "https://gigalixir.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "northflank": {
@@ -101,7 +101,7 @@
       "http_status": 200,
       "final_url": "https://northflank.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "ownkube": {
@@ -109,7 +109,7 @@
       "http_status": 200,
       "final_url": "https://ownkube.io",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "runsite": {
@@ -117,7 +117,7 @@
       "http_status": 200,
       "final_url": "https://runsite.app/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "snapdeploy": {
@@ -125,7 +125,7 @@
       "http_status": 200,
       "final_url": "https://snapdeploy.dev/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:51Z",
+      "checked_at": "2026-11-21T23:50:01Z",
       "streak_gone": 0
     },
     "staxa": {
@@ -133,7 +133,7 @@
       "http_status": 200,
       "final_url": "https://staxa.dev/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "val-town": {
@@ -141,7 +141,7 @@
       "http_status": 200,
       "final_url": "https://www.val.town",
       "keyword_hit": false,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "velixir": {
@@ -149,7 +149,7 @@
       "http_status": 200,
       "final_url": "https://velixir.net/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "yepcode": {
@@ -157,7 +157,7 @@
       "http_status": 200,
       "final_url": "https://yepcode.io",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "instabox": {
@@ -165,7 +165,7 @@
       "http_status": 200,
       "final_url": "https://instabox.sh/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "modal": {
@@ -173,7 +173,7 @@
       "http_status": 200,
       "final_url": "https://modal.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "ai-grant": {
@@ -181,7 +181,7 @@
       "http_status": 200,
       "final_url": "https://aigrant.org/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "prime-intellect-fast-compute-grants": {
@@ -189,15 +189,15 @@
       "http_status": 404,
       "final_url": "https://www.primeintellect.ai/blog/fast-compute-grants#:~:text=If%20you're%20working%20on,hackers%20and%20distributed%20computing%20experts",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
-      "streak_gone": 12
+      "checked_at": "2026-11-21T23:50:02Z",
+      "streak_gone": 13
     },
     "fal-ai-fal-research-grants": {
       "status": "online",
       "http_status": 200,
       "final_url": "https://fal.ai/grants",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "a16z-16z-open-source-ai-grant-program": {
@@ -205,7 +205,7 @@
       "http_status": 200,
       "final_url": "https://a16z.com/supporting-the-open-source-ai-community/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "gradient-research-grant": {
@@ -213,15 +213,15 @@
       "http_status": 0,
       "final_url": "https://gradient.ai/research-grant",
       "keyword_hit": false,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "trelis-research-trelis-ai-grants": {
       "status": "online",
-      "http_status": 202,
+      "http_status": 200,
       "final_url": "https://trelis.com/trelis-ai-grants/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "zoltan-s-flops": {
@@ -229,7 +229,7 @@
       "http_status": 200,
       "final_url": "https://tcz.hu/zoltans-flops",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "apply-for-google-cloud-research-credits": {
@@ -237,7 +237,7 @@
       "http_status": 200,
       "final_url": "https://edu.google.com/programs/credits/research/?modal_active=none",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:52Z",
+      "checked_at": "2026-11-21T23:50:02Z",
       "streak_gone": 0
     },
     "aws-cloud-credit-for-research": {
@@ -245,7 +245,7 @@
       "http_status": 200,
       "final_url": "https://pages.awscloud.com/aws-cloud-credit-for-research.html",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "lambda-ai": {
@@ -253,7 +253,7 @@
       "http_status": 200,
       "final_url": "https://lambda.com/research",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "hostkey-gpu-grant-program-for-research-projects-and-startups": {
@@ -261,7 +261,7 @@
       "http_status": 200,
       "final_url": "https://landing.hostkey.com/grant_for_scientific_projects_formhtml",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "nebius-research-credits-program": {
@@ -269,7 +269,7 @@
       "http_status": 200,
       "final_url": "https://nebius.com/nebius-research-grants",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:54Z",
+      "checked_at": "2026-11-21T23:50:04Z",
       "streak_gone": 0
     },
     "together-ai-research-credits-program-request": {
@@ -277,7 +277,7 @@
       "http_status": 200,
       "final_url": "https://www.together.ai/research-credits-program-request",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "google-cloud-free-tier": {
@@ -285,7 +285,7 @@
       "http_status": 200,
       "final_url": "https://cloud.google.com/free",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "digitalocean-credits-via-github-pack": {
@@ -293,7 +293,7 @@
       "http_status": 200,
       "final_url": "https://www.digitalocean.com/",
       "keyword_hit": false,
-      "checked_at": "2026-11-21T00:50:54Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "kaggle": {
@@ -301,7 +301,7 @@
       "http_status": 200,
       "final_url": "https://www.kaggle.com/code",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "google-colab": {
@@ -309,7 +309,7 @@
       "http_status": 200,
       "final_url": "https://colab.research.google.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:53Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "aws-sagemaker-studio-lab": {
@@ -317,7 +317,7 @@
       "http_status": 403,
       "final_url": "https://studiolab.sagemaker.aws/",
       "keyword_hit": false,
-      "checked_at": "2026-11-21T00:50:54Z",
+      "checked_at": "2026-11-21T23:50:04Z",
       "streak_gone": 0
     },
     "kaggle-kernels": {
@@ -325,7 +325,7 @@
       "http_status": 200,
       "final_url": "https://www.kaggle.com",
       "keyword_hit": false,
-      "checked_at": "2026-11-21T00:50:54Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "ace-cloud": {
@@ -333,7 +333,7 @@
       "http_status": 200,
       "final_url": "https://www.acecloudhosting.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:54Z",
+      "checked_at": "2026-11-21T23:50:03Z",
       "streak_gone": 0
     },
     "alibaba-cloud": {
@@ -341,7 +341,7 @@
       "http_status": 200,
       "final_url": "https://www.alibabacloud.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:55Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "aws-sagemaker": {
@@ -349,7 +349,7 @@
       "http_status": 200,
       "final_url": "https://aws.amazon.com/sagemaker/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:54Z",
+      "checked_at": "2026-11-21T23:50:04Z",
       "streak_gone": 0
     },
     "azure": {
@@ -357,7 +357,7 @@
       "http_status": 200,
       "final_url": "https://azure.microsoft.com/en-in/products/machine-learning/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:54Z",
+      "checked_at": "2026-11-21T23:50:04Z",
       "streak_gone": 0
     },
     "dataiku": {
@@ -365,7 +365,7 @@
       "http_status": 200,
       "final_url": "https://www.dataiku.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:55Z",
+      "checked_at": "2026-11-21T23:50:04Z",
       "streak_gone": 0
     },
     "gridshare": {
@@ -373,7 +373,7 @@
       "http_status": 200,
       "final_url": "https://gridshare.in",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:55Z",
+      "checked_at": "2026-11-21T23:50:06Z",
       "streak_gone": 0
     },
     "hostkey": {
@@ -381,7 +381,7 @@
       "http_status": 200,
       "final_url": "https://hostkey.com/gpu-dedicated-servers/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:56Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "ibm-cloud": {
@@ -389,7 +389,7 @@
       "http_status": 200,
       "final_url": "https://www.ibm.com/products/gpu-ai-accelerator",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:56Z",
+      "checked_at": "2026-11-21T23:50:04Z",
       "streak_gone": 0
     },
     "jarvis-labs": {
@@ -397,7 +397,7 @@
       "http_status": 200,
       "final_url": "https://jarvislabs.ai/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:55Z",
+      "checked_at": "2026-11-21T23:50:04Z",
       "streak_gone": 0
     },
     "nimblebox": {
@@ -405,7 +405,7 @@
       "http_status": 200,
       "final_url": "https://blog.nimblebox.ai/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:55Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "paperspace": {
@@ -413,7 +413,7 @@
       "http_status": 200,
       "final_url": "https://www.paperspace.com",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:55Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "puzl-ee": {
@@ -421,7 +421,7 @@
       "http_status": 200,
       "final_url": "https://puzl.cloud/gpu-cloud",
       "keyword_hit": false,
-      "checked_at": "2026-11-21T00:50:56Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "qit": {
@@ -429,7 +429,7 @@
       "http_status": 200,
       "final_url": "https://qit.energy",
       "keyword_hit": false,
-      "checked_at": "2026-11-21T00:50:55Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "radeon-cloud": {
@@ -437,7 +437,7 @@
       "http_status": 200,
       "final_url": "https://developer.amd.com.cn/radeon/?utm_source=github&utm_medium=deep-learning-in-cloud&utm_campaign=awesome-dlcloud",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:58Z",
+      "checked_at": "2026-11-21T23:50:09Z",
       "streak_gone": 0
     },
     "runpod": {
@@ -445,7 +445,7 @@
       "http_status": 200,
       "final_url": "https://www.runpod.io/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:56Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "tensordock": {
@@ -453,7 +453,7 @@
       "http_status": 200,
       "final_url": "https://www.tensordock.com/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:56Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "oracle-cloud-arm-ampere": {
@@ -461,7 +461,7 @@
       "http_status": 200,
       "final_url": "https://www.oracle.com/cloud/compute/arm/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:56Z",
+      "checked_at": "2026-11-21T23:50:05Z",
       "streak_gone": 0
     },
     "axforge": {
@@ -469,7 +469,7 @@
       "http_status": 200,
       "final_url": "https://axforge.ai/gpu/",
       "keyword_hit": true,
-      "checked_at": "2026-11-21T00:50:57Z",
+      "checked_at": "2026-11-21T23:50:06Z",
       "streak_gone": 0
     }
   }
