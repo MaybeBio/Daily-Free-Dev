@@ -1,0 +1,2 @@
+oracle.com/cloud | Oracle Cloud (OCI) | cpu | permanent | Oracle Cloud (OCI) Generous free tier; strong price/perf; solid ARM (Ampere).
+oracle.com/cloud/compute/arm | Oracle Cloud ARM (Ampere) | vps | permanent | Oracle Cloud ARM (Ampere) Generous always-free ARM; great perf/$.

@@ -1,0 +1,20 @@
+acecloudhosting.com/ | Ace Cloud | gpu | trial_credit | [$300 credits] (https://www.acecloudhosting.com/public-cloud/gpu/)
+alibabacloud.com/ | Alibaba cloud | gpu | trial_credit | $300 credits
+aws.amazon.com/sagemaker | AWS Sagemaker | gpu | permanent | Free plans
+axforge.ai/gpu | AxForge | serverless | permanent | 3M free serverless API tokens every 30 days, no card (API only, not GPU hours)
+azure.microsoft.com/en-in/products/machine-learning | Azure | gpu | trial_credit | $200 credits
+cloud.google.com/gpu | Google Cloud Platform | gpu | trial_credit | $300 credits
+colab.research.google.com/ | Google Colaboratory | gpu | permanent | FREE FOREVER*
+dataiku.com/ | Dataiku | gpu | permanent | Free Plans
+gridshare.in/ | GridShare | gpu | trial_credit | ₹25 trial credit on email verification
+hostkey.com/gpu-dedicated-servers | Hostkey | gpu | trial_credit | Free trials available
+ibm.com/products/gpu-ai-accelerator | IBM Cloud | gpu | trial_credit | $200 credits
+jarvislabs.ai/ | Jarvis Labs | gpu | permanent | - )
+kaggle.com/ | Kaggle Kernels | notebook | permanent | FREE FOREVER*
+nimblebox.ai/ | Nimblebox | gpu | trial_credit | Free $10 worth of cloud credits
+paperspace.com/ | Paperspace | gpu | permanent | Referal Program Available
+puzl.cloud/gpu-cloud | puzl.ee | gpu | permanent | Free cloud Kubernetes API, up to 10 GPUs per pod
+qit.energy/ | QIT | serverless | trial_credit | $1.56 free credits for new business-email accounts
+radeon.anruicloud.com/ | Radeon Cloud | notebook | permanent | Free tier — ROCm GPU notebooks on AMD Radeon (Colab-style)
+runpod.io/ | RunPod | gpu | trial_credit | Research & startup credits programs available
+tensordock.com/ | TensorDock | gpu | student | Discounts to FOOS, students and researchers
